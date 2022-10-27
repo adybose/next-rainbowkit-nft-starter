@@ -1,9 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# next-rainbowkit-nft-starter
+
+A Next.js boilerplate dapp to mint NFTs bootstrapped with Rainbowkit, Wagmi, and ethers.js.
+
+## Smart Contract
+The smart contract is deployed on the Goerli Ethereum Testnet at address [0x2c5d31E87bb77eafcb573DaAD98FF742Fbe0a2b0](https://goerli.etherscan.io/address/0x2c5d31e87bb77eafcb573daad98ff742fbe0a2b0).
+
+Make sure you have a wallet like Metamask to connect and sign transactions from your Ethereum account on the Goerli Test Network.
 
 ## Getting Started
 
-First, run the development server:
+- First, create a new app on Alchemy, and add the API key to a `.env` file in the project root like:
+```
+ALCHEMY_ID=<YOUR_ALCHEMY_APP_API_KEY>
+```
+- Install the dependencies:
+```bash
+npm install
+# or
+yarn install
+```
 
+- Finally, run the development server:
 ```bash
 npm run dev
 # or
